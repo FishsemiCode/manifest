@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="ssh://git@github.com" />
+
+  <default remote="github" revision="song-u1" />
+
+  <project path="apps" name="FishsemiCode/apps" />
+  <project path="apps/interpreters/micropython/micropython" name="FishsemiCode/micropython" />
+  <project path="nuttx" name="FishsemiCode/nuttx" />
+  <project path="nuttx/libs/libxx/libcxx" name="FishsemiCode/libcxx" />
+  <project path="nuttx/libs/libxx/uClibc++" name="FishsemiCode/uClibcplus" />
+  <project path="nuttx/openamp/libmetal" name="FishsemiCode/libmetal" />
+  <project path="nuttx/openamp/open-amp" name="FishsemiCode/open-amp" />
+  <project path="nuttx/tools/kconfig-frontends" name="FishsemiCode/kconfig-frontends" />
+  <project path="nuttx/tools/mkromfs" name="FishsemiCode/genromfs" />
+  <project path="vendor" name="FishsemiCode/vendor" />
+  <project path="vendor/images" name="FishsemiCode/images" />
+  <project path="vendor/system/cmsis" name="FishsemiCode/cmsis" />
+  <project path="vendor/system/libcoap" name="FishsemiCode/libcoap" />
+  <project path="vendor/system/mosquitto" name="FishsemiCode/mosquitto" />
+  <project path="vendor/tools/coremark" name="FishsemiCode/coremark" />
+  <project path="vendor/tools/iperf2" name="FishsemiCode/iperf2" />
+  <project path="vendor/services/atcmd" name="FishsemiCode/atcmd" />
+  <project path="vendor/services/gpstest" name="FishsemiCode/gpstest" />
+  <project path="vendor/services/ril" name="FishsemiCode/ril" />
+  <project path="vendor/services/riltest" name="FishsemiCode/riltest" />
+  <project path="vendor/services/tcptest" name="FishsemiCode/tcptest" />
+  <project path="vendor/services/usrsock" name="FishsemiCode/usrsock" />
+  <project path="prebuilts/gcc/linux/arm" name="FishsemiCode/prebuilts-gcc-linux-arm" />
+  <project path="prebuilts/gcc/windows/arm" name="FishsemiCode/prebuilts-gcc-windows-arm" />
+</manifest>
