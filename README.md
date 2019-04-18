@@ -1,10 +1,11 @@
 # Requirement 要求
     
-    ubuntu环境下安装make, gcc, curl, git tools：
-    sudo apt-get install make
-    sudo apt-get install gcc
-    sudo apt-get install curl
+    ubuntu环境下安装make, gcc, curl, git tools, autoconf, automake, pkg-config, libtool, libncurses5-dev, autotools-dev, flex, bison, gperf(3.0.4):
+    sudo apt-get install make gcc curl
     sudo apt-get install git
+    sudo apt-get install autoconf automake pkg-config libtool libncurses5-dev autotools-dev flex bison
+    sudo apt-get install gperf=3.0.4-1
+
    
     同时下载 repo 工具，并确保它在PATH中并可执行：
     mkdir ~/bin
@@ -21,6 +22,13 @@
   
     build生成image out/u1/ap.bin
     prebuilt images: vendor/images cp.bin, sp.bin, ptable.bin
+
+    注意：如果要build menuconfig，则要先执行以下命令：
+    cd nuttx/tools/kconfig-frontends/
+    autoreconf -fi
+    ./configure && make
+    cd ../../..
+    ./build.sh u1/ap menuconfig
     
 # Release 版本
 
