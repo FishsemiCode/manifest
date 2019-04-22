@@ -12,19 +12,19 @@
     curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
     chmod a+x ~/bin/repo
 ## win10自带Ubuntu系统（须为14.04或16.04的64位ubuntu系统）
->  与ubuntu电脑有两点不同
-1. 软件源更换为中科大源，即/etc/apt/下的source.list文件的内容替换为以下
-    deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
-    deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
-    deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
-    deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
-    deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
-    deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
-    deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
-    deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
-    deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
-    deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
-2. gperf安装不用选定版本，直接执行sudo apt-get install gperf
+    与ubuntu电脑有两点不同
+    1. 软件源更换为中科大源，即/etc/apt/下的source.list文件的内容替换为以下内容：
+        deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
+        deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
+        deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+        deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+        deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+        deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+        deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+        deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+        deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+        deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+    2. gperf安装不用选定版本，直接执行sudo apt-get install gperf
     
 # Download 代码
     repo init -u git@github.com:FishsemiCode/manifest.git -b u1 -m u1.xml
