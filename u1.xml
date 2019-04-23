@@ -6,6 +6,9 @@
 
   <project path="apps" name="FishsemiCode/apps" />
   <project path="apps/interpreters/micropython/micropython" name="FishsemiCode/micropython" />
+  <project path="build" name="FishsemiCode/build" >
+    <linkfile src=".build.sh" dest="build.sh" />
+  </project>
   <project path="nuttx" name="FishsemiCode/nuttx" />
   <project path="nuttx/libs/libxx/libcxx" name="FishsemiCode/libcxx" />
   <project path="nuttx/libs/libxx/uClibc++" name="FishsemiCode/uClibcplus" />
