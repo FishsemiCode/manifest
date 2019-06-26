@@ -24,6 +24,8 @@
   <project path="vendor/tools/coremark" name="FishsemiCode/coremark" />
   <project path="vendor/tools/iperf2" name="FishsemiCode/iperf2" />
   <project path="vendor/services/atcmd" name="FishsemiCode/atcmd" />
+  <project path="vendor/services/iotpf" name="FishsemiCode/iotpf" />
+  <project path="vendor/services/iotpf_lib" name="FishsemiCode/iotpf_lib" />
   <project path="vendor/services/ril" name="FishsemiCode/ril" />
   <project path="vendor/services/usrsock" name="FishsemiCode/usrsock" />
   <project path="prebuilts/gcc/linux/arm" name="FishsemiCode/prebuilts-gcc-linux-arm" />
