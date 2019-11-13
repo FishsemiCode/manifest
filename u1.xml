@@ -27,6 +27,7 @@
   <project path="vendor/services/iotpf" name="FishsemiCode/iotpf" />
   <project path="vendor/services/iotpf_lib" name="FishsemiCode/iotpf_lib" />
   <project path="vendor/services/ril" name="FishsemiCode/ril" />
+  <project path="vendor/services/snshub" name="FishsemiCode/snshub" />
   <project path="vendor/services/usrsock" name="FishsemiCode/usrsock" />
   <project path="prebuilts/gcc/linux/arm" name="FishsemiCode/prebuilts-gcc-linux-arm" />
   <project path="prebuilts/gcc/windows/arm" name="FishsemiCode/prebuilts-gcc-windows-arm" />
