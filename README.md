@@ -27,7 +27,7 @@
     2. gperf安装不用选定版本，直接执行sudo apt-get install gperf
     
 # Download 代码
-    repo init -u git@github.com:FishsemiCode/manifest.git -b u1 -m u1.xml
+    repo init -u https://github.com/FishsemiCode/manifest.git -b u1 -m u1.xml
     repo sync
     
 # Build 构建
