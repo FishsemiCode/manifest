@@ -40,6 +40,7 @@
 
     images/
     ├── ap.bin
+    ├── aplite.bin
     ├── cp.bin
     ├── ptable.bin // 分区表
     └── sp.bin
