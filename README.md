@@ -12,7 +12,7 @@
     curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
     chmod a+x ~/bin/repo
 ## Win10自带Ubuntu系统（须为14.04或16.04的64位ubuntu系统）
-    与ubuntu电脑有两点不同
+    与原生Ubuntu系统有两点不同
     1. 软件源更换为中科大源，即/etc/apt/下的source.list文件的内容替换为以下内容：
         deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
         deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
