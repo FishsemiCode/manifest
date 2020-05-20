@@ -1,5 +1,5 @@
-# Requirement 要求
-## ubuntu电脑系统（须为14.04或16.04的64位ubuntu系统）
+# 系统配置
+## Ubuntu系统（须为14.04或16.04的64位ubuntu系统）
     须安装软件：make,gcc,curl,git,autoconf,automake,pkg-config,libtool,libncurses5-dev,autotools-dev,flex,bison,gperf(3.0.4):
     sudo apt-get install make gcc curl
     sudo apt-get install git
@@ -11,7 +11,7 @@
     PATH=~/bin:$PATH
     curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
     chmod a+x ~/bin/repo
-## win10自带Ubuntu系统（须为14.04或16.04的64位ubuntu系统）
+## Win10自带Ubuntu系统（须为14.04或16.04的64位ubuntu系统）
     与ubuntu电脑有两点不同
     1. 软件源更换为中科大源，即/etc/apt/下的source.list文件的内容替换为以下内容：
         deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
