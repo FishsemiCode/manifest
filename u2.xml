@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+
+  <default remote="github" revision="song-u1" />
+
+  <project path="apps" name="FishsemiCode/apps" />
+  <project path="build" name="FishsemiCode/build" >
+    <linkfile src=".build.sh" dest="build.sh" />
+  </project>
+  <project path="nuttx" name="FishsemiCode/nuttx" />
+  <project path="nuttx/libs/libxx/libcxx" name="FishsemiCode/libcxx" />
+  <project path="nuttx/libs/libxx/uClibc++" name="FishsemiCode/uClibcplus" />
+  <project path="nuttx/openamp/libmetal" name="FishsemiCode/libmetal" />
+  <project path="nuttx/openamp/open-amp" name="FishsemiCode/open-amp" />
+  <project path="nuttx/tools/kconfig-frontends" name="FishsemiCode/kconfig-frontends" />
+  <project path="nuttx/tools/mkromfs" name="FishsemiCode/genromfs" />
+  <project path="vendor" name="FishsemiCode/vendor" revision="song-u2" />
+  <project path="prebuilts/gcc/linux/riscv" name="FishsemiCode/prebuilts-gcc-linux-riscv" />
+  <project path="prebuilts/gcc/windows/riscv" name="FishsemiCode/prebuilts-gcc-windows-riscv" />
+</manifest>
